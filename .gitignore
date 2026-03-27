@@ -205,3 +205,104 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# -------------------------
+# Node.js / JavaScript / TypeScript
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+.next/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+.turbo/
+out/
+
+# -------------------------
+# Java / Maven / Gradle
+# -------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+# Maven local repository should not be committed; install via `mvn install`
+.m2/
+
+# -------------------------
+# Go
+# -------------------------
+vendor/
+*.exe
+*.exe~
+*.test
+*.out
+
+# -------------------------
+# Rust
+# -------------------------
+target/
+# Note: Cargo.lock should be committed for applications but can be ignored for libraries.
+# Uncomment the line below only if this project is a Rust library:
+#Cargo.lock
+
+# -------------------------
+# Ruby
+# -------------------------
+.bundle/
+vendor/bundle/
+*.gem
+
+# -------------------------
+# PHP / Composer
+# -------------------------
+composer.phar
+
+# -------------------------
+# .NET / C#
+# -------------------------
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+.vs/
+packages/
+*.nupkg
+
+# -------------------------
+# OS-generated files
+# -------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Sensitive / secret files
+# -------------------------
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.yml
+secrets.yaml
