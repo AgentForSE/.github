@@ -1,0 +1,7 @@
+{
+  "name": "AgentForSE · Traceability Schema 契约校验",
+  "description": "校验业务仓对组织 traceability Artifact / TraceLink schema 的兼容性",
+  "iconName": "octicon link",
+  "categories": ["Continuous integration"],
+  "filePatterns": ["contracts/traceability_usage.json"]
+}

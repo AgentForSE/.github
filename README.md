@@ -1,6 +1,13 @@
 # .github
 代码管理注意事项
 
+> 📐 **架构与共有开发底座**：详见 [`docs/architecture/`](./docs/architecture/README.md)。
+> 该目录沉淀 SafeWise / SafeMatrix / SmartInsight / SmartST 共性技术与公共底座规范，
+> 各业务仓研发前请先阅读，确保只聚焦业务、且产品间可整合。
+>
+> 🔁 **可复用工作流模板**：详见 [`workflow-templates/`](./workflow-templates/README.md)，
+> 可在各业务仓 Actions → New workflow → "By AgentForSE" 一键引入。
+
 ## 提交规范
 
 ### ✅ 应当提交的内容
