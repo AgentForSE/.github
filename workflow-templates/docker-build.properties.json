@@ -1,0 +1,7 @@
+{
+  "name": "AgentForSE · Docker Build & Push",
+  "description": "构建 Docker 镜像并推送至内部镜像仓（基于语义化版本与分支自动打 tag）",
+  "iconName": "container",
+  "categories": ["Deployment"],
+  "filePatterns": ["Dockerfile"]
+}

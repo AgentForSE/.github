@@ -1,0 +1,7 @@
+{
+  "name": "AgentForSE · Python CI",
+  "description": "Python 代码 lint + 单元测试 + 覆盖率（公共模块覆盖率门槛建议提至 80%）",
+  "iconName": "python",
+  "categories": ["Python"],
+  "filePatterns": ["pyproject.toml", "requirements.txt", "setup.py"]
+}
